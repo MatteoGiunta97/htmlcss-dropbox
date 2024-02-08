@@ -129,12 +129,20 @@ h1 {
 /* HERO */
 
 .hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #b4d0e7;
     max-width: 100vw;
     height: 730px;
 }
 
-
+.hero-container {
+    min-height: 630px;
+    text-align: center;
+    font-size:xx-large;
+}
 
 /*/ HERO */
 

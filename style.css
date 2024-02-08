@@ -33,9 +33,9 @@ button {
     cursor: pointer;
 }
 
-/* img {
+img:not(.logo) {
     width: 100%;
-} */
+} 
 
 /*--/ RESET --*/
 
@@ -43,8 +43,6 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
 }
 
 .col {
@@ -76,17 +74,30 @@ button {
     margin: auto;
 }
 
+
+
 .nav-left {
     padding-left: 10px;
 }
 
+.nav-right {
+    padding-right: 10px;
+    justify-content: end;
+}
+
 .nav-left,
-.nav-left ul {
+.nav-right,
+.nav ul {
     display: flex;
     align-items: center;
 }
 
 .nav-left li {
-padding-left: 40px;
+    padding-left: 40px;
 }
+
+.nav-right li {
+    padding-right: 40px;
+}
+
 /*/ HEADER */

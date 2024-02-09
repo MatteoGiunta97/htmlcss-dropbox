@@ -190,9 +190,24 @@ h1 {
 
 .section-1 h2 {
     font-size: 40px;
+    text-align: center;
 }
 
-.plan-choice span {
+.plan-choice {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-choice-buttons {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.plan-choice-buttons :nth-child(3) {
+    margin-left: 40px;
+}
+
+.plan-choice-buttons span {
     vertical-align: -6px;
     padding-left: 2px;
 }

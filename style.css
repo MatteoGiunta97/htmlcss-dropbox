@@ -202,12 +202,22 @@ h1 {
 
 .plan-choice-buttons :nth-child(3) {
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .plan-choice-buttons span {
     vertical-align: -6px;
     padding-left: 2px;
 }
+
+.user-type {
+    text-align: center;
+    border: 1px solid grey;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
 
 /*/----- SECTION 1 */
 /* /MAIN */

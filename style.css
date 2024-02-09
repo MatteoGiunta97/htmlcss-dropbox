@@ -153,11 +153,10 @@ h1 {
     background-color: #b4d0e7;
     max-width: 100%;
     margin-bottom: 120px;
+    padding: 60px 0px 0px 0px;
+    
 }
 
-.hero-container {
-    padding: 70px 100px 0px 100px;
-}
 
 .hero-container h1 {
     font-size: 60px;
@@ -165,7 +164,7 @@ h1 {
 }
 
 .hero-container .col-70 {
-    margin-bottom: -75px;
+    margin-bottom: -80px;
 }
 
 .hero .col-30 .button-default {
@@ -190,12 +189,10 @@ h1 {
 
 .section-1 h2 {
     font-size: 40px;
-    text-align: center;
 }
 
 .plan-choice {
     display: flex;
-    justify-content: center;
 }
 
 .plan-choice-buttons {
@@ -204,7 +201,7 @@ h1 {
 }
 
 .plan-choice-buttons :nth-child(3) {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .plan-choice-buttons span {

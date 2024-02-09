@@ -1,5 +1,5 @@
 /* DEBUG */
-main>* {
+.hero>* {
     border: 1px dashed violet;
 }
 
@@ -101,6 +101,7 @@ button {
 h1 {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* /TYPOGRAPHY */
 
 /* HEADER */
@@ -109,7 +110,7 @@ h1 {
     max-width: 100%;
     max-height: 80px;
     margin: auto;
-    padding-top: 10px; 
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -137,26 +138,44 @@ h1 {
     padding-right: 40px;
 }
 
-/* HERO */
+/*/ HEADER */
+
+/* MAIN */
+/*----- HERO */
 
 .hero {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     background-color: #b4d0e7;
     max-width: 100%;
-    max-height: 730px;
 }
 
 .hero-container {
-    max-height: 630px;
     padding: 70px 100px 0px 100px;
 }
 
 .hero-container h1 {
     font-size: 60px;
+    padding-bottom: 50px;
 }
-/*/ HERO */
 
-/*/ HEADER */
+.hero-container .col-70 {
+    margin-bottom: -75px;
+}
+
+.hero .col-30 button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.hero .col-30 {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.hero .col-30 i {
+    font-size: 40px;
+    position: absolute;
+    bottom: 2px;
+}
+/*/----- HERO */
+/* /MAIN */

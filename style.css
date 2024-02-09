@@ -217,7 +217,20 @@ h1 {
     padding-bottom: 8px;
 }
 
+.user-type i {
+    padding-right: 5px;
+}
 
+.plan-offer {
+    
+    border: 1px solid grey;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.plan-offer h3 {
+    font-size: 20px;
+}
 
 /*/----- SECTION 1 */
 /* /MAIN */

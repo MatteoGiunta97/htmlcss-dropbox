@@ -1,5 +1,5 @@
 /* DEBUG */
-.hero>* {
+.section-1 {
     border: 1px dashed violet;
 }
 
@@ -87,12 +87,18 @@ img:not(.logo) {
     margin: auto;
 }
 
-button {
-    font-size: 16px;
+.button-circle {
+    border-radius: 100%;
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.button-default {
+    color: white;
     background-color: #0061ff;
+    font-size: 16px;
     border-radius: 1px;
     padding: 8px 12px;
-    color: white;
 }
 
 /* /GENERAL */
@@ -146,6 +152,7 @@ h1 {
 .hero {
     background-color: #b4d0e7;
     max-width: 100%;
+    margin-bottom: 120px;
 }
 
 .hero-container {
@@ -161,7 +168,7 @@ h1 {
     margin-bottom: -75px;
 }
 
-.hero .col-30 button {
+.hero .col-30 .button-default {
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -177,5 +184,18 @@ h1 {
     position: absolute;
     bottom: 2px;
 }
+
 /*/----- HERO */
+/*----- SECTION 1 */
+
+.section-1 h2 {
+    font-size: 40px;
+}
+
+.plan-choice span {
+    vertical-align: -6px;
+    padding-left: 2px;
+}
+
+/*/----- SECTION 1 */
 /* /MAIN */

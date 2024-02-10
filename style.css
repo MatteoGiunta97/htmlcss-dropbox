@@ -3,14 +3,14 @@
     border: 1px dashed violet;
 }
 
-/* FONT FAMILY */
+/* FONT FAMILY -----*/
 * {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* /FONT FAMILY */
+/*----- /FONT FAMILY */
 
-/*-- RESET --*/
+/* RESET -----*/
 
 * {
     box-sizing: border-box;
@@ -36,9 +36,9 @@ img:not(.logo) {
     width: 100%;
 }
 
-/*--/ RESET --*/
+/*----- /RESET */
 
-/*-- GRID LAYOUT --*/
+/* GRID LAYOUT -----*/
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -72,9 +72,9 @@ img:not(.logo) {
     flex-grow: 1;
 }
 
-/*--/ GRID LAYOUT --*/
+/*---- /GRID LAYOUT */
 
-/* GENERAL */
+/* GENERAL -----*/
 
 .container-small {
     width: 1000px;
@@ -84,6 +84,10 @@ img:not(.logo) {
 .container-large {
     width: 1200px;
     margin: auto;
+}
+
+.border-1px {
+    border: 1px solid grey;
 }
 
 .button-circle {
@@ -108,16 +112,24 @@ img:not(.logo) {
     padding-bottom: 35px;
 }
 
-/* /GENERAL */
+/*----- /GENERAL */
 
-/* TYPOGRAPHY */
+/* TYPOGRAPHY -----*/
 h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* /TYPOGRAPHY */
+h2 {
+    font-size: 40px;
+}
 
-/* HEADER */
+h3 {
+    font-size: 25px;
+}
+
+/*----- /TYPOGRAPHY */
+
+/* HEADER -----*/
 
 .nav {
     max-width: 100%;
@@ -151,15 +163,15 @@ h1 {
     padding-right: 40px;
 }
 
-/*/ HEADER */
+/*----- /HEADER */
 
-/* MAIN */
-/*----- HERO */
+/* MAIN -----*/
+/* HERO -----*/
 
 .hero {
     background-color: #b4d0e7;
     max-width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 160px;
     padding: 60px 0px 0px 0px;
 
 }
@@ -191,11 +203,11 @@ h1 {
     bottom: 2px;
 }
 
-/*/----- HERO */
-/*----- SECTION 1 */
+/*----- /HERO */
+/* SECTION 1 -----*/
 
-.section-1 h2 {
-    font-size: 40px;
+.section-1 {
+    margin-bottom: 50px;
 }
 
 .plan-choice {
@@ -224,20 +236,13 @@ h1 {
 
 .user-type {
     text-align: center;
-    border: 1px solid grey;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
 .plan-offer {
-    border: 1px solid grey;
     padding: 25px;
     height: 850px;
-}
-
-
-.plan-offer h3 {
-    font-size: 25px;
 }
 
 .plan-offer ul :nth-child(2) {
@@ -265,5 +270,17 @@ h1 {
     font-size: 20px;
 }
 
-/*/----- SECTION 1 */
+/*----- /SECTION 1 */
+/* SECTION 2 -----*/
+.section-2 .container-small {
+    height: 250px;
+}
+
+.team {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*----- /SECTION 2 */
 /* /MAIN */

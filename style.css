@@ -252,5 +252,10 @@ h1 {
     width: 20%;
 }
 
+.plan-offer .fa-check {
+    color: #0061ff;
+    font-size: 20px;
+}
+
 /*/----- SECTION 1 */
 /* /MAIN */

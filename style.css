@@ -217,6 +217,11 @@ h1 {
     padding-left: 2px;
 }
 
+.plan-type {
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
 .user-type {
     text-align: center;
     border: 1px solid grey;
@@ -226,13 +231,13 @@ h1 {
 
 .plan-offer {
     border: 1px solid grey;
-    padding-top: 35px;
-    padding-left: 30px;
+    padding: 25px;
+    height: 850px;
 }
 
 
 .plan-offer h3 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .plan-offer ul :nth-child(2) {
@@ -244,8 +249,11 @@ h1 {
 }
 
 .plan-offer button {
-    transform: translateX(18px);
     padding: 10px 30px 10px 30px;
+}
+
+#starred {
+    padding: 10px 85px 10px 85px;
 }
 
 .plan-offer hr {

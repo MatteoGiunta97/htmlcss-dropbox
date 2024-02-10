@@ -104,6 +104,10 @@ img:not(.logo) {
     padding: 8px 12px;
 }
 
+.button-padded {
+    padding: 10px 40px 10px 40px;
+}
+
 .padding-bottom-small {
     padding-bottom: 15px;
 }
@@ -257,10 +261,6 @@ h3 {
     padding: 10px 30px 10px 30px;
 }
 
-#starred {
-    padding: 10px 85px 10px 85px;
-}
-
 .plan-offer hr {
     width: 20%;
 }
@@ -273,13 +273,17 @@ h3 {
 /*----- /SECTION 1 */
 /* SECTION 2 -----*/
 .section-2 .container-small {
-    height: 250px;
+    max-height: 250px;
 }
 
 .team {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.enterprise {
+    padding: 25px;
 }
 
 /*----- /SECTION 2 */

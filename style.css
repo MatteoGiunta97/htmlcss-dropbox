@@ -1,7 +1,7 @@
 /* DEBUG */
- .trial * {
+ /* .faq * {
     border: 1px dashed violet;
-}
+} */
 
 /* FONT FAMILY -----*/
 * {
@@ -419,7 +419,6 @@ header {
 
 .testimonial hr {
     width: 20%;
-    border: 0.5px solid grey;
 }
 
 .testimonial p {
@@ -483,7 +482,18 @@ header {
 /*----- /COMPANIES*/
 
 /* FAQ -----*/
+.faq .container-small {
+    margin-top: 150px;
+}
 
+.faq h2 {
+    margin-bottom: 50px;
+}
+
+.faq li {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 /*----- /FAQ*/
 
 

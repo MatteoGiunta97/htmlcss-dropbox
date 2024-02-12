@@ -1,5 +1,5 @@
 /* DEBUG */
-.section-2 *{
+.section-3 * {
     border: 1px dashed violet;
 }
 
@@ -77,12 +77,12 @@ img:not(.logo) {
 /* GENERAL -----*/
 
 .container-small {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
 
 .container-large {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -102,6 +102,15 @@ img:not(.logo) {
     font-size: 16px;
     border-radius: 1px;
     padding: 8px 12px;
+}
+
+.button-variant {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 1px;
+    padding: 8px 12px;
+    width: 50%;
 }
 
 .button-padded {
@@ -141,6 +150,15 @@ h3 {
 
 /* HEADER -----*/
 
+header {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
 .nav {
     max-width: 100%;
     max-height: 80px;
@@ -175,7 +193,7 @@ h3 {
 
 /*----- /HEADER */
 
-/* MAIN -----*/
+/* MAIN ----------*/
 /* HERO -----*/
 
 .hero {
@@ -214,9 +232,9 @@ h3 {
 }
 
 /*----- /HERO */
-/* SECTION 1 -----*/
+/* OFFER SELECTION -----*/
 
-.section-1 {
+.offers {
     margin-bottom: 50px;
 }
 
@@ -252,11 +270,20 @@ h3 {
 
 .plan-offer {
     padding: 25px;
-    height: 850px;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .plan-offer ul :nth-child(2) {
     padding-bottom: 0px;
+}
+
+.plan-offer li {
+    display: flex;
+}
+
+.plan-offer i {
+    padding-right: 3px;
 }
 
 .plan-offer a {
@@ -276,9 +303,9 @@ h3 {
     font-size: 20px;
 }
 
-/*----- /SECTION 1 */
-/* SECTION 2 -----*/
-.section-2 .container-small {
+/*----- /OFFER SELECTION */
+/* ENTERPRISE PRICE -----*/
+.reach-us .container-small {
     max-height: 250px;
 }
 
@@ -296,7 +323,21 @@ h3 {
     margin-left: 19px;
 }
 
+/*----- /ENTERPRISE PRICE */
 
+/* FIND A PARTNER -----*/
 
-/*----- /SECTION 2 */
-/* /MAIN */
+.partners{
+    padding-top: 150px;
+}
+
+.partners .row {
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
+.partners .col-30 {
+    padding-top: 50px;
+}
+/*----- /FIND A PARTNER */
+/*---------- /MAIN */

@@ -360,7 +360,19 @@ header {
     gap: 30px;
     padding-bottom: 50px;
 }
-
 /*----- /BUSINESS FEATURES*/
+
+/* OUR CLIENTS -----*/
+
+.clients {
+    margin-top: 150px;
+}
+
+.clients a {
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+/*----- /OUR CLIENTS*/
 
 /*---------- /MAIN */

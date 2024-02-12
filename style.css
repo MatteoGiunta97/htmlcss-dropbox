@@ -469,7 +469,7 @@ header {
 
 .trial .row {
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: #61082b;
 }
 

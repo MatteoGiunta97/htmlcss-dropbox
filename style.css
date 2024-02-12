@@ -506,6 +506,7 @@ header {
 .faq i {
     margin-right: 30px;
 }
+
 /*----- /FAQ*/
 
 
@@ -527,6 +528,16 @@ footer .container-large {
 
 footer h3 {
     font-size: 22px;
+}
+
+.language {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.language hr {
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 /*---------- /FOOTER */

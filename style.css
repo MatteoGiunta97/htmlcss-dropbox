@@ -1,7 +1,7 @@
 /* DEBUG */
-.features * {
+/* .features * {
     border: 1px dashed violet;
-}
+} */
 
 /* FONT FAMILY -----*/
 * {
@@ -354,6 +354,13 @@ header {
 .features h2 {
     padding-bottom: 50px;
 }
+
+.features .row {
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
 /*----- /BUSINESS FEATURES*/
 
 /*---------- /MAIN */

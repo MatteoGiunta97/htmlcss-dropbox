@@ -1,7 +1,7 @@
 /* DEBUG */
-/* .features * {
+ .companies * {
     border: 1px dashed violet;
-} */
+}
 
 /* FONT FAMILY -----*/
 * {
@@ -227,9 +227,10 @@ header {
 }
 
 .hero .col-30 i {
-    font-size: 40px;
+    font-size: 50px;
     position: absolute;
-    bottom: 2px;
+    left: 0px;
+    bottom: 20px;
 }
 
 /*----- /HERO */
@@ -276,8 +277,8 @@ header {
     overflow-y: auto;
 }
 
-.plan-offer ul :nth-child(2) {
-    padding-bottom: 0px;
+.plan-offer h5 {
+    font-size: 15px;
 }
 
 .plan-offer li {
@@ -374,5 +375,30 @@ header {
 }
 
 /*----- /OUR CLIENTS*/
+
+/* COMPANIES -----*/
+
+.companies {
+    margin-top: 150px;
+    display: flex;
+}
+
+.companies-block {
+    width: calc(100%/3);
+    height: calc(100vw/3);
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.companies-logo {
+    width: 50%;
+    height: 50%;
+    
+}
+
+
+
+/*----- /COMPANIES*/
 
 /*---------- /MAIN */

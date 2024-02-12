@@ -394,17 +394,19 @@ header {
 .companies-logo {
     width: 50%;
     height: 50%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px
 }
 
-#designit-bg {
-    background-color: #d1e9cd;
+.companies-block hr {
+    width: 20%;
 }
 
 #designit {
     background-color: #a2d39b ;
-    width: 90%;
-    height: 90%;
+    border: 15px solid #d1e9cd;
 }
 
 #arizona {

@@ -397,6 +397,43 @@ header {
     
 }
 
+#designit-bg {
+    background-color: #d1e9cd;
+}
+
+#designit {
+    background-color: #a2d39b ;
+    width: 90%;
+    height: 90%;
+}
+
+#arizona {
+    background-color: #61082b;
+}
+
+#florida {
+    background-color: #0093ce;
+}
+
+#topps {
+    background-color: #ff1c1c;
+}
+
+#bycicle {
+    background-color: #d5001f;
+}
+
+#hearst {
+    background-color: #b4d0e7;
+}
+
+#lonely {
+    background-color: #0d2481;
+}
+
+#clearchannel {
+    background-color: #ffd830;
+}
 
 
 /*----- /COMPANIES*/

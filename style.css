@@ -493,6 +493,13 @@ header {
 .faq li {
     margin-top: 25px;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq i {
+    margin-right: 30px;
 }
 /*----- /FAQ*/
 

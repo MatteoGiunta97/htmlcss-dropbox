@@ -1,5 +1,5 @@
 /* DEBUG */
-.section-3 * {
+.features * {
     border: 1px dashed violet;
 }
 
@@ -194,6 +194,7 @@ header {
 /*----- /HEADER */
 
 /* MAIN ----------*/
+
 /* HERO -----*/
 
 .hero {
@@ -232,10 +233,11 @@ header {
 }
 
 /*----- /HERO */
+
 /* OFFER SELECTION -----*/
 
 .offers {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .plan-choice {
@@ -283,11 +285,12 @@ header {
 }
 
 .plan-offer i {
-    padding-right: 3px;
+    padding-right: 5px;
 }
 
 .plan-offer a {
     text-decoration: underline;
+    padding-left: 5px;
 }
 
 .plan-offer button {
@@ -304,7 +307,9 @@ header {
 }
 
 /*----- /OFFER SELECTION */
+
 /* ENTERPRISE PRICE -----*/
+
 .reach-us .container-small {
     max-height: 250px;
 }
@@ -340,4 +345,15 @@ header {
     padding-top: 50px;
 }
 /*----- /FIND A PARTNER */
+
+/* BUSINESS FEATURES -----*/
+.features{
+    padding-top: 150px;
+}
+
+.features h2 {
+    padding-bottom: 50px;
+}
+/*----- /BUSINESS FEATURES*/
+
 /*---------- /MAIN */

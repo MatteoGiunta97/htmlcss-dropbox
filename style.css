@@ -397,7 +397,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px
+    padding: 40px;
+}
+
+.companies-logo img {
+    filter: invert(1);
 }
 
 .companies-block hr {

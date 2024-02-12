@@ -48,6 +48,10 @@ img:not(.logo) {
     width: 100%;
 }
 
+.col-20 {
+    width: 20%;
+}
+
 .col-25 {
     width: 25%;
 }
@@ -484,6 +488,7 @@ header {
 /* FAQ -----*/
 .faq .container-small {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .faq h2 {
@@ -508,4 +513,20 @@ header {
 
 
 /*FOOTER ----------*/
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer .container-large {
+    padding-top: 100px;
+    font-size: small;
+}
+
+footer h3 {
+    font-size: 22px;
+}
+
 /*---------- /FOOTER */

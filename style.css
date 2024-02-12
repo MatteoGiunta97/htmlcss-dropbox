@@ -1,5 +1,5 @@
 /* DEBUG */
- .companies * {
+ .trial * {
     border: 1px dashed violet;
 }
 
@@ -460,7 +460,28 @@ header {
     background-color: #ffd830;
 }
 
+.trial {
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #b4d0e7;
+}
 
+.trial .row {
+    align-items: center;
+    justify-content: space-evenly;
+    color: #61082b;
+}
+
+.trial button {
+    width: auto;
+    border: none;
+    align-self: baseline;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 /*----- /COMPANIES*/
+
+
 
 /*---------- /MAIN */
